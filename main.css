@@ -42,3 +42,7 @@ ul li {
     margin-top: 25px;
     font-size: 25px;
 }
+
+ul li:hover {
+    cursor: pointer;
+}
