@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 230, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form input {
+    height:40px;
+    width: 250px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    height:40px;
+    width: 120px;
+    font-weight: bold;
+    font-size:larger;
+}
+
+button:hover {
+    background-color: rgb(166, 240, 219);
+    cursor: pointer;
+}
+
+
+ul li {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
