@@ -6,8 +6,8 @@ $(document).ready(function(){
         $(`<ul>${tarefas}</ul>`).appendTo(listaTarefa);
         $(listaTarefa).appendTo('ul');
         $('#tarefa').val('');
-        $('trf').click(()=>{
-            $('trf').css({"text-decoration":"line-through"});
+        $('ul').click(()=>{
+            $('ul').css({"text-decoration":"line-through"});
         })
     })
 })
