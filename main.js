@@ -5,9 +5,9 @@ $(document).ready(function(){
         const listaTarefa = $('<li></li>');
         $(`<ul>${tarefas}</ul>`).appendTo(listaTarefa);
         $(listaTarefa).appendTo('ul');
-        $('#tarefa').val('');
         $('ul').click(()=>{
             $('ul').css({"text-decoration":"line-through"});
         })
+        $('#tarefa').val('');
     })
 })
